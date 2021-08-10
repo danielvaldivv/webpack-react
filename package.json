@@ -10,7 +10,9 @@
     "type": "git",
     "url": "git+https://github.com/danielvaldivv/webpack-react.git"
   },
-  "keywords": ["react"]],
+  "keywords": [
+    "react"
+  ],
   "author": "Daniel Rodrigo Valdivieso Merino",
   "license": "MIT",
   "bugs": {
@@ -20,5 +22,14 @@
   "dependencies": {
     "react": "^17.0.2",
     "react-dom": "^17.0.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.15.0",
+    "@babel/preset-env": "^7.15.0",
+    "@babel/preset-react": "^7.14.5",
+    "babel-loader": "^8.2.2",
+    "webpack": "^5.49.0",
+    "webpack-cli": "^4.7.2",
+    "webpack-dev-server": "^3.11.2"
   }
 }
